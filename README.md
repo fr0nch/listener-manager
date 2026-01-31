@@ -1,0 +1,1 @@
+Simple listener manager package for Plugify plugins.
