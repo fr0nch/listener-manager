@@ -7,7 +7,7 @@ import (
 
 // PluginResult represents the result of a callback execution.
 // It is used to control further processing of listeners.
-type PluginResult = int32
+type PluginResult int32
 
 const (
 	Continue PluginResult = 0 // Continue execution without any changes.
@@ -16,7 +16,7 @@ const (
 	Stop     PluginResult = 3 // Stop processing, no further steps are executed.
 )
 
-type HookMode = int32
+type HookMode int32
 
 const (
 	Pre  HookMode = 0
@@ -29,7 +29,7 @@ type listenerHolder[T any] struct {
 }
 
 // ListenerID is a unique identifier of a registered listener.
-type ListenerID = int32
+type ListenerID int32
 
 // ListenerManager manages a set of listeners with execution order and supports pre- and post-invocation phases.
 type ListenerManager[T any] struct {
