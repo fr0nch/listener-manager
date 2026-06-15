@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.3](https://github.com/fr0nch/listener-manager/compare/v0.1.2...v0.1.3) (2026-06-15)
+
+
+### Bug Fixes
+
+* replace aliases with custom types ([f3d806c](https://github.com/fr0nch/listener-manager/commit/f3d806c56349371234e5d7f98e58f09081b7f742))
+
 ## [0.1.2](https://github.com/fr0nch/listener-manager/compare/v0.1.1...v0.1.2) (2026-01-31)
 
 
