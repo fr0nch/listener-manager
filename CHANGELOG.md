@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/fr0nch/listener-manager/compare/v0.1.3...v0.1.4) (2026-10-30)
+
+
+### Bug Fixes
+
+* copy-on-write listener lists ([8b5fceb](https://github.com/fr0nch/listener-manager/commit/8b5fceb349906069fff83efc87bb7ae55387e106))
+
 ## [0.1.3](https://github.com/fr0nch/listener-manager/compare/v0.1.2...v0.1.3) (2026-06-15)
 
 
